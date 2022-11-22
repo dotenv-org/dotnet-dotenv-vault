@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dotnet_dotenv_vault
+namespace dotenv_vault.net
 {
     class LoadOptions
     {

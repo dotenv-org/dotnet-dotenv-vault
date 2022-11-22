@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace dotnet_dotenv_vault
+namespace dotenv_vault.net
 {
     public static class EnvReader
     {

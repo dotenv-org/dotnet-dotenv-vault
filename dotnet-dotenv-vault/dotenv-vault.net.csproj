@@ -2,19 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>dotnet_dotenv_vault</RootNamespace>
+    <RootNamespace>dotenv_vault</RootNamespace>
     <Version>0.0.1</Version>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>dotenv-vault</Company>
     <Authors>dotenv-vault</Authors>
-    <Description>dotnet lib for integrating dotnet-vault</Description>
+    <Description>dotnet lib for integrating dotenv-vault</Description>
     <Copyright>dotenv-vault</Copyright>
     <PackageProjectUrl>https://github.com/dotenv-org/dotenv-vault</PackageProjectUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageTags>dotenv-vault dotnev</PackageTags>
     <PackageReleaseNotes>intial release</PackageReleaseNotes>
-    <RepositoryUrl>https://github.com/dotenv-org/dotnet-dotenv-vault</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dotenv-org</RepositoryUrl>
     <PackageIcon>dotenv-logo.png</PackageIcon>
+    <PackageId>dotenv-vault.net</PackageId>
+    <Product>dotenv-vault.net</Product>
   </PropertyGroup>
 
   <ItemGroup>

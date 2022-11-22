@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 
-namespace dotnet_dotenv_vault
+namespace dotenv_vault.net
 {
     internal static class Reader
     {

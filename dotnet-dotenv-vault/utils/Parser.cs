@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace dotnet_dotenv_vault
+namespace dotenv_vault.net
 {
     internal static class Parser
     {

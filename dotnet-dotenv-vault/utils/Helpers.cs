@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace dotnet_dotenv_vault
+namespace dotenv_vault.net
 {
     internal static class Helpers
     {
