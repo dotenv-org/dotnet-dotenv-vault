@@ -23,14 +23,15 @@ namespace dotenv_vault.net
         internal static IDictionary<string, string> ReadAndReturn(LoadOptions options)
         {
             var response = new Dictionary<string, string>();
+
+            // TODO: support envFilePaths
             var envFilePaths = options.ProbeForEnv
                 ? new[] { GetProbedEnvPath(options.ProbeLevelsToSearch, options.IgnoreExceptions) }
                 : options.EnvFilePaths;
 
             foreach (var envFilePath in envFilePaths)
             {
-                var envRows = ReadAndParse(envFilePath, options.IgnoreExceptions, options.Encoding,
-                    options.TrimValues);
+                var envRows = ReadAndParse(envFilePath, options.IgnoreExceptions, options.Encoding, options.TrimValues);
 
                 foreach (var envRow in envRows)
                 {
@@ -88,11 +89,11 @@ namespace dotenv_vault.net
                     currentDirectory != null && count > 0;
                     count--, currentDirectory = currentDirectory.Parent)
                 {
-                    //foreach (var file in currentDirectory.GetFiles(DotEnvOptions.DefaultEnvFileName,
-                    //    SearchOption.TopDirectoryOnly))
-                    //{
-                    //    return file.FullName;
-                    //}
+                    foreach (FileInfo file in currentDirectory.GetFiles(LoadOptions.DefaultEnvFileName,
+                        SearchOption.TopDirectoryOnly))
+                    {
+                        return file.FullName;
+                    }
                 }
 
                 return null;

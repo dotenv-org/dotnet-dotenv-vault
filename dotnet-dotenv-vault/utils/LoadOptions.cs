@@ -13,8 +13,8 @@ namespace dotenv_vault.net
         public bool IgnoreExceptions { get; }
         public bool ProbeForEnv { get; }
         public int ProbeLevelsToSearch { get; }
-        public string DefaultEnvFileName { get; }
 
+        public static readonly string DefaultEnvFileName = ".env";
 
         public LoadOptions()
         {
@@ -26,7 +26,6 @@ namespace dotenv_vault.net
             IgnoreExceptions = true;
             ProbeForEnv = false;
             ProbeLevelsToSearch = 4;
-            DefaultEnvFileName = ".env";
         }
     }
 }

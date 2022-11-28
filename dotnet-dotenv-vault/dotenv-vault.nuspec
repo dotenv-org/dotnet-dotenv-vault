@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>$Id$</id>
+        <version>$Version$</version>
+        <title>dotenv-vault.net</title>
+        <authors>dotenv-vault</authors>
+        <owners>dotenv-vault</owners>
+        <description>$Description$</description>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="expression">MIT</license>
+        <summary>$Summary$</summary>
+        <releaseNotes>$PackageReleaseNotes$</releaseNotes>
+        <projectUrl>https://github.com/dotenv-org/dotenv-vault</projectUrl>
+        <icon>images\dotenv-logo.png</icon>
+        <copyright>Copyright © dotenv-vault</copyright>
+        <tags>dotenv-vault dotnev</tags>
+        <dependencies>
+            <dependency id="dotenv.net" version="3.1.1" include="contentFiles, build" />
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="images\dotenv-logo.png" target="images\" />
+    </files>
+</package>
