@@ -10,17 +10,19 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <license type="expression">MIT</license>
         <summary>$Summary$</summary>
-        <releaseNotes>$PackageReleaseNotes$</releaseNotes>
+        <releaseNotes>Intial release</releaseNotes>
         <projectUrl>https://github.com/dotenv-org/dotenv-vault</projectUrl>
         <icon>images\dotenv-logo.png</icon>
-        <copyright>Copyright © dotenv-vault</copyright>
+        <copyright>Copyright dotenv-vault</copyright>
         <tags>dotenv-vault dotnev</tags>
         <dependencies>
-            <dependency id="dotenv.net" version="3.1.1" include="contentFiles, build" />
+          <dependency id="dotenv.net" version="3.1.1" />
         </dependencies>
+        <readme>docs\README.md</readme>
     </metadata>
 
     <files>
         <file src="images\dotenv-logo.png" target="images\" />
+        <file src="README.md" target="docs\" />
     </files>
 </package>

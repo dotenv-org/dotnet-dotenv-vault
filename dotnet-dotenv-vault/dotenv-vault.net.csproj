@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>dotenv_vault</RootNamespace>
-    <Version>0.0.1.2</Version>
+    <Version>0.0.3</Version>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>dotenv-vault</Company>
     <Authors>dotenv-vault</Authors>
@@ -11,12 +11,14 @@
     <Copyright>dotenv-vault</Copyright>
     <PackageProjectUrl>https://github.com/dotenv-org/dotenv-vault</PackageProjectUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageTags>dotenv-vault dotnev</PackageTags>
-    <PackageReleaseNotes>Bug fix: Updated defaults</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/dotenv-org</RepositoryUrl>
     <PackageIcon>images/dotenv-logo.png</PackageIcon>
     <PackageId>dotenv-vault.net</PackageId>
     <Product>dotenv-vault.net</Product>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <AssemblyInformationalVersion>0.0.0.0</AssemblyInformationalVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

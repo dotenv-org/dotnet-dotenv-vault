@@ -1,12 +1,19 @@
-﻿# dotenv-vault [![Gem Version](https://badge.fury.io/rb/dotenv-vault.svg)](https://badge.fury.io/rb/dotenv-vault)
+﻿# dotenv-vault.net
 
-<img src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.svg" alt="dotenv-vault" align="right" width="200" />
+[![NuGet version](https://badge.fury.io/nu/dotenv-vault.net.svg)](https://badge.fury.io/nu/dotenv-vault.net)
+![Nuget downloads](https://img.shields.io/nuget/dt/dotenv-vault.net)
+
+![Alt Text](https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.svg "dotenv-vault")
 
 Extends the proven & trusted foundation of [dotenv](https://github.com/bolorundurowb/dotenv.net), with a `.env.vault` file.
 
 The extended standard lets you sync your `.env` files – quickly & securely. Stop sharing them over insecure channels like Slack and email, and never lose an important `.env` file again.
 
 ## Installation
+
+Follow these steps to install both of these libraries:
+- dotenv-vault.net
+- dotenv.net (3.1.0 <= version < 3.2.0)
 
 If you want to add library reference manually then add this line to your `csproj` file:
 
